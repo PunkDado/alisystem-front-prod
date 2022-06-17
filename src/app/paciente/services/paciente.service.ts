@@ -12,7 +12,7 @@ import { TelefoneContato } from 'src/app/shared/models/telefone-contato.model';
 })
 export class PacienteService {
 
-  BASE_URL = "http://localhost:8080/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
   
   httpOptions = {
     headers: new HttpHeaders({

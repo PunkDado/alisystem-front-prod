@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class DentistaService {
 
-  BASE_URL = "http://localhost:8080/dentistas/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
 
   httpOptions = {
     headers: new HttpHeaders({

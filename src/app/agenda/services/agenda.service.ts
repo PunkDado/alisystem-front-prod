@@ -8,7 +8,7 @@ import { Agenda } from 'src/app/shared/models/agenda.model';
 })
 export class AgendaService {
 
-  BASE_URL = "http://localhost:8080/agendas/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/agendas/";
 
   httpOptions = {
     headers: new HttpHeaders({

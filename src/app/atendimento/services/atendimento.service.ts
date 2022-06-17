@@ -13,7 +13,7 @@ const LS_CHAVE_2: string = 'procedimentosAplicados';
 })
 export class AtendimentoService {
 
-  BASE_URL = "http://localhost:8080/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
   
   httpOptions = {
     headers: new HttpHeaders({

@@ -12,7 +12,7 @@ const LS_CHAVE: string = "usuarioLogado";
 
 export class LoginService {
 
-  BASE_URL = "http://localhost:8080/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
   
   httpOptions = {
     headers: new HttpHeaders({

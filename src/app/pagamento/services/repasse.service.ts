@@ -8,7 +8,7 @@ import { Repasse } from 'src/app/shared/models/repasse.model';
 })
 export class RepasseService {
 
-  BASE_URL = "http://localhost:8080/repasses/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
 
   httpOptions = {
     headers: new HttpHeaders({

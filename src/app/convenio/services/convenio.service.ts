@@ -8,7 +8,7 @@ import { Convenio } from 'src/app/shared/models/convenio.model';
 })
 export class ConvenioService {
 
-  BASE_URL = "http://localhost:8080/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
   
   httpOptions = {
     headers: new HttpHeaders({

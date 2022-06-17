@@ -8,7 +8,7 @@ import { Procedimento } from 'src/app/shared/models/procedimento.model';
 })
 export class ProcedimentoService {
 
-  BASE_URL = "http://localhost:8080/";
+  BASE_URL = "https://alisystem-tcc-api.herokuapp.com/";
   
   httpOptions = {
     headers: new HttpHeaders({
